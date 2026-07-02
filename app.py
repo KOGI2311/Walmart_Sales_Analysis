@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Walmart Sales Analysis")
+st.title("WALMART SALES ANALYSIS")
 
 df = pd.read_csv("Walmart_Sales.csv")
 #converte date column to datetime format
