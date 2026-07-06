@@ -189,4 +189,4 @@ st.write(f"Average weekly sales: ${df['Weekly_Sales'].mean():,.2f}")
 
 st.write(f"Number of holiday weeks: {df['Holiday_Flag'].sum()}")
 
-st.write(f"Number of non-holiday weeks: {len(df) - df['Holiday_Flag'].sum()}")g
+st.write(f"Number of non-holiday weeks: {len(df) - df['Holiday_Flag'].sum()}")
